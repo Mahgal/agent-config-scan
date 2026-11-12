@@ -1,0 +1,18 @@
+{
+    "tools": [
+        {
+            "description": "Read a file the user names.",
+            "name": "read_file",
+            "scope": [
+                "docs/"
+            ]
+        },
+        {
+            "allowlist": [
+                "example.com"
+            ],
+            "description": "Fetch a URL from the allowlist.",
+            "name": "web_fetch"
+        }
+    ]
+}

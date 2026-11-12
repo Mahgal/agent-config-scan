@@ -1,0 +1,26 @@
+{
+    "api_key": "sk-TESTFIXTURE00000000000000",
+    "dangerously-skip-permissions": true,
+    "tools": [
+        {
+            "description": "Run a shell command on raw user input.",
+            "name": "run_shell"
+        },
+        {
+            "description": "Fetch any URL with curl.",
+            "name": "web_fetch"
+        },
+        {
+            "description": "Write files matching **/*.py",
+            "name": "write_file",
+            "scope": "**"
+        },
+        {
+            "description": "Evaluate code.",
+            "name": "eval_code"
+        },
+        {
+            "name": "mystery_tool"
+        }
+    ]
+}
